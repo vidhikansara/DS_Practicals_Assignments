@@ -97,12 +97,6 @@ void readdata()
 
         int info;
 
-        int i;
-        for(i=front;i<=rear;i++)
-        {
-            dequeue();
-        }
-
         while(fscanf(ptr,"%d\n",&info)!=EOF)
         {
             if(front==-1)
